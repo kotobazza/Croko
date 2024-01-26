@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartingWidget</class>
+ <widget class="QWidget" name="StartingWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>149</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="croco">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>80</y>
+     <width>575</width>
+     <height>594</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#croco{
+	background: url(:/root/images/images/crocodile.png);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="menuLayout">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>220</y>
+     <width>491</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QFrame" name="logo">
+      <property name="minimumSize">
+       <size>
+        <width>419</width>
+        <height>90</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>419</width>
+        <height>90</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#logo{
+	background: url(:/root/images/images/name.png);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="createRoomButton">
+      <property name="minimumSize">
+       <size>
+        <width>360</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>360</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#createRoomButton{
+	background: #93B955;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #053900;
+}
+
+#createRoomButton::hover{
+	background: #053900; 
+	border: 7px solid #93B955; 
+	border-radius: 15px; 
+	font-size: 32px;
+	font-weight: bold; 
+	color: #93B955;
+}</string>
+      </property>
+      <property name="text">
+       <string>Создать комнату</string>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="joinButton">
+      <property name="minimumSize">
+       <size>
+        <width>360</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>360</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#joinButton{
+	background: #93B955;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #053900;
+	
+}
+
+#joinButton::hover{
+	background: #053900; 
+	border: 7px solid #93B955; 
+	border-radius: 15px; 
+	font-size: 32px;
+	font-weight: bold; 
+	color: #93B955;
+}</string>
+      </property>
+      <property name="text">
+       <string>Присоединиться</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

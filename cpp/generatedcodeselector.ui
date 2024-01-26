@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GeneratedCodeSelector</class>
+ <widget class="QWidget" name="GeneratedCodeSelector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 34px;
+font-weight: bold;
+color: #053900;
+background: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Скопируйте код комнаты
+и отправьте друзьям</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>376</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>376</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#label{
+	background: white;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	padding: 15px;
+	font-weight: bold;
+	color: #053900;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>#1234567890</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>389</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>389</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton{
+	background: white;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	padding: 15px;
+	font-weight: bold;
+	color: #053900;
+}
+
+#pushButton::hover{
+	background: #00A55E; 
+	border: 7px solid #93B955; 
+	border-radius: 15px; 
+	font-size: 32px;
+	font-weight: bold; 
+	color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Открыть комнату</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

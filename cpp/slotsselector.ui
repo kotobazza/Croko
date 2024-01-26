@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SlotsSelector</class>
+ <widget class="QWidget" name="SlotsSelector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	background: white;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	padding: 10px;
+	font-weight: bold;
+	color: #053900;
+}
+
+QPushButton::hover{
+	background: #00A55E; 
+	border: 7px solid #93B955; 
+	border-radius: 15px; 
+	font-size: 32px;
+	font-weight: bold; 
+	color: white;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 34px;
+font-weight: bold;
+color: #053900;
+background: transparent;
+</string>
+     </property>
+     <property name="text">
+      <string>Выберите количество слов для игры</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="maximumSize">
+      <size>
+       <width>240</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: white;
+border: 7px solid #00A55E;
+border-radius: 15px;
+padding: 7px;
+font-size: 28px;
+font-weight: bold;</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QPushButton" name="pushButton">
+     <property name="maximumSize">
+      <size>
+       <width>254</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">padding-left: 20px;
+padding-right: 20px;</string>
+     </property>
+     <property name="text">
+      <string>Продолжить</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

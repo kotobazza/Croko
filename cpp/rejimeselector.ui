@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RejimeSelector</class>
+ <widget class="QWidget" name="RejimeSelector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 34px;
+font-weight: bold;
+color: #053900;
+background: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Выберите режим</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="styleSheet">
+            <string notr="true">#pushButton{
+	background: white;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	padding: 15px;
+	font-weight: bold;
+	color: #053900;
+}
+
+#pushButton::hover{
+	background: #00A55E; 
+	border: 7px solid #93B955; 
+	border-radius: 15px; 
+	font-size: 32px;
+	font-weight: bold; 
+	color: white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Командный</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">font-size: 16px;
+font-weight: bold;
+color: #053900;
+background: transparent;
+</string>
+           </property>
+           <property name="text">
+            <string>Делимся на команды!
+ Набирайте очки для
+ своей группы</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="styleSheet">
+            <string notr="true">#pushButton_2{
+	background: white;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	padding: 15px;
+	font-weight: bold;
+	color: #053900;
+}
+
+#pushButton_2::hover{
+	background: #00A55E; 
+	border: 7px solid #93B955; 
+	border-radius: 15px; 
+	font-size: 32px;
+	font-weight: bold; 
+	color: white;
+}</string>
+           </property>
+           <property name="text">
+            <string>По одиночке</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">font-size: 16px;
+font-weight: bold;
+color: #053900;
+background: transparent;</string>
+           </property>
+           <property name="text">
+            <string>Каждый сам за себя! 
+Подсчёт очков идёт 
+для каждого игрока</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

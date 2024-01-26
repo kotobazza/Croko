@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JoinWidget</class>
+ <widget class="QWidget" name="JoinWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>419</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>419</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:url(:/root/images/images/name.png)</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>640</width>
+       <height>380</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>640</width>
+       <height>380</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{
+	margin-top: 60px;
+	background: #93B955;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	font-size: 32px;
+	font-weight: bold;
+}
+QGroupBox::title{
+	color: #053900;
+	padding: 15px;
+	subcontrol-position: top center;
+	top: -50%;
+	background:#93B955;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+}</string>
+     </property>
+     <property name="title">
+      <string>Присоединение</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size: 34px;
+font-weight: bold;
+color: #053900;
+background: transparent;</string>
+        </property>
+        <property name="text">
+         <string>Введите код команды</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLineEdit" name="code">
+        <property name="minimumSize">
+         <size>
+          <width>400</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#code{
+	background: white;
+	border: 7px solid #00A55E;
+	border-radius: 15px;
+	padding: 7px;
+	font-size: 28px;
+	font-weight: bold;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QPushButton" name="joining">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>55</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>55</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#joining{
+	font-size: 40px;
+	font-weight: bold;
+	color: #053900;
+	background: transparent;
+	border: none;
+	text-decoration: underline;
+}
+
+#joining::hover{
+	color: red;
+}</string>
+        </property>
+        <property name="text">
+         <string>Присоединиться</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
